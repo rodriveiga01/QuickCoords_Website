@@ -1,4 +1,4 @@
-import compass from "/src/assets/compass.png"
+import compass from "/src/assets/compass.png";
 
 export function Cover() {
     return(
@@ -10,7 +10,7 @@ export function Cover() {
                         Easily find precise locations with integrated tools and various coordinate formats
                     </p>
                     <div className="flex items-center">
-                        <a href="https://play.google.com/store/apps/details?id=com.rodriveiga10.quickcoords" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-[#004c4c] rounded-lg hover:bg-[#004c4c] focus:ring-4 focus:ring-gray-800 dark:border-[#004c4c] dark:hover:bg-[#004c4c] dark:focus:ring-gray-800">
+                        <a href="https://play.google.com/store/apps/details?id=com.rodriveiga10.quickcoords" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-[#004c4c] rounded-lg bg-[#004c4c] lg:bg-transparent hover:bg-[#004c4c] focus:ring-4 focus:ring-gray-800 dark:border-[#004c4c] dark:hover:bg-[#004c4c] dark:focus:ring-gray-800">
                             Install
                         </a> 
                         <p className="pl-4">More than <span className="font-bold">30 people</span> like you have installed this app!</p>

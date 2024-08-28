@@ -1,4 +1,4 @@
-import logo from '/src/assets/logo_filled.png'
+import logo from '/src/assets/logo_filled.png';
 
 export function Header() {
     return ( 
