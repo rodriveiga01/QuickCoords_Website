@@ -26,11 +26,32 @@ export function FeatureInDepth() {
       "• Our smart system automatically keeps you on track, so you can navigate smoothly and reliably"
     ]
   );
+
+  let accuracy = [">1m", "Accuracy"]
+  let precision = ["3600", "Degrees of precision"]
+  let level_text = "A level to indicate inclination"
+
   return (
-    <div className="flex flex-col items-center">
-      <FeatureDesign feature={calculation}/>
-      <FeatureDesign feature={compass}/>
-    </div>
+    <>
+      <div className="flex flex-col items-center">
+        <FeatureDesign feature={calculation} />
+        <FeatureDesign feature={compass} />
+      </div>
+      <div className="flex flex-col lg:flex-row p-6 bg-[#004c4c] mx-10 mt-10 rounded-2xl max-w-full justify-between items-center">
+        <div className="flex flex-col lg:pl-10 mb-8 lg:mb-0">
+          <h1 className="text-2xl lg:text-4xl text-center">{accuracy[0]}</h1>
+          <h2 className="text-base lg:text-xl font-light">{accuracy[1]}</h2>
+        </div>
+        <div className="flex flex-col mb-8 lg:mb-0">
+          <h1 className="text-xl lg:text-4xl">{level_text}</h1>
+        </div>
+        <div className="flex flex-col lg:pr-10">
+          <h1 className="text-2xl lg:text-4xl text-center">{precision[0]}</h1>
+          <h2 className="text-base lg:text-xl font-light">{precision[1]}</h2>
+        </div>
+      </div>
+
+    </>
   )
 }
 
