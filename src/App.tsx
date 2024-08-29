@@ -3,6 +3,7 @@ import { Cover } from './Components/Cover'
 import { FeatureGroup } from './Components/FeatureGroup'
 import { FeatureInDepth } from './Components/FeatureInDepth'
 import { Header } from './Components/Header'
+import { Questions } from './Components/Questions'
 import { UseCases } from './Components/UseCases'
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
       <FeatureInDepth/>
       <div className='h-32'></div>
       <UseCases/>
+      <div className='h-32'></div>
+      <Questions/>
+      <div className='h-32'></div>
     </div>
     </>
   )
