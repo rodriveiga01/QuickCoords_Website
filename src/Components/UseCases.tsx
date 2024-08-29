@@ -22,7 +22,7 @@ export function UseCases() {
 
     return (
         <div className="flex flex-col items-center mx-20 mt-10">
-            <h1 className="lg:text-5xl font-semibold">Use Cases</h1>
+            <h1 className="lg:text-5xl text-4xl font-semibold">Use Cases</h1>
             <h2 className="lg:text-xl mt-5">Here are some use cases that QuickCoords can be valuable</h2>
             <FeatureDesign useCase={campsite} />
             <FeatureDesign useCase={mountain} />
