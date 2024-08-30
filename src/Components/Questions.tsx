@@ -1,35 +1,41 @@
 import { useState } from "react";
 import arrow from "/src/assets/arrow.png"
 import React from "react";
+import { useLanguageDetection, useTranslatedText } from "../locale/languageUtility";
 
 export function Questions() {
+    useLanguageDetection();
+    const t = useTranslatedText();
+
+    const paidStepsString = t('questionPaidText');
+    const paidSteps = paidStepsString ? paidStepsString.split('\n') : [];
+
+    const iosStepsString = t('questionIOSText');
+    const iosSteps = iosStepsString ? iosStepsString.split('\n') : [];
+
+    const standoutStepsString = t('questionStandoutText');
+    const standoutSteps = standoutStepsString ? standoutStepsString.split('\n') : [];
+
 
     let paid = new Question(
-        "Is QuickCoords paid?",
-        [
-            "QuickCoords is totally free with no ads.",
-            "We think that the users deserve a great app for free and without advertisements ruining the user experience. We never know the future but if one day the app has a subscrition we will try to make it affordable and worth it."
-        ]
+        t('questionPaid'),
+        paidSteps
     );
 
     let ios = new Question(
-        "Why is there no IOS version?",
-        [
-            "There's no QuickCoords for IOS devices because the price to submit an app to the App Store is expensive but if in the future our user base grows we will launch an IOS version."
-        ]
+        t('questionIOS'),
+        iosSteps
     );
 
     let standout = new Question(
-        "How QuickCoords standout from the other apps?",
-        [
-            "You will think that this is just trying to convince you but QuickCoords may not have all the features or options but one thing you can be sure is that QuickCoords is built from the ground to be simple, easy and effective. We think that an app is not good because it has a lot of features but because it has the right features"
-        ]
+        t('questionStandout'),
+        standoutSteps
     );
 
     return (
         <div className="flex-col">
             <div className="flex justify-center mb-6">
-                <h1 className="lg:text-5xl text-3xl pb-6 font-semibold">Questions to answer</h1>
+                <h1 className="lg:text-5xl text-3xl pb-6 font-semibold">{t('questions')}</h1>
             </div>
 
             <QuestionDesign question={paid} />

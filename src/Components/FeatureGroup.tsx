@@ -1,19 +1,23 @@
+import { useLanguageDetection, useTranslatedText } from "../locale/languageUtility";
 import calculator_logo from "/src/assets/calculator.png";
 import compass_logo from "/src/assets/compass_logo.png"
 
 export function FeatureGroup() {
+    useLanguageDetection();
+    const t = useTranslatedText();
+
     let calculation = new Feature(
         calculator_logo,
         "Logo of a calculator",
-        "Calculation", 
-        "Calculate coordinates using a distance and orientation–based calculation system."
+        t('calculation'), 
+        t('compassText')
     );
 
     let compass = new Feature(
         compass_logo,
         "Logo of a compass",
-        "Compass", 
-        "Reach your destination with a compass navigation system - no cell connection needed"
+        t('compass'), 
+        t('compassText')
     );
 
     return (
