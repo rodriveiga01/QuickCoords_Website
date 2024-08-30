@@ -1,0 +1,31 @@
+{
+    "translation": {
+        "titleCover": "Effortlessly reach locations with precision",
+        "secondTextCover": "Easily find precise locations with integrated tools and various coordinate formats",
+        "install": "Install",
+        "installationCount": "More than 30 people like you have installed this app!",
+        "calculation": "Calculation",
+        "calculationSlogan": "From nowhere to anywhere in 5 clicks",
+        "calculationSteps": "Calculate any location worldwide in just 5 steps:\n• Click 'Use my location' to detect your current position\n• Enter your desired distance\n• Set your desired orientation\n• Hit 'Calculate'\n• Either tap 'Send to Compass' or copy your new coordinates",
+        "compass": "Compass",
+        "compassSlogan": "From anywhere to the right place - just a compass, no clicks",
+        "compassSteps":"Either inserting the coordinates you want or calculating them you will always get to the place you want without need to worry:\n• Reach your exact destination within one meter of accuracy, without needing cell signals\n• Our smart system automatically keeps you on track, so you can navigate smoothly and reliably",
+        "accuracy": "Accuracy",
+        "precision": "Degrees of precision",
+        "levelText": "A level to indicate inclination",
+        "useCases": "Use Cases",
+        "useCasesText": "Here are some use cases that QuickCoords can be valuable",
+        "campsite": "Finding a campsite",
+        "campsiteSteps": "Use QuickCoords to return safely to your campsite after a day of exploring\n",
+        "mountain": "Hiking in the mountains",
+        "mountainSteps": "Use QuickCoords to pinpoint your location on a trail, ensuring you stay on course with the built-in compass\n",
+        "questions": "Questions to answer",
+        "questionPaid": "Is QuickCoords paid?",
+        "questionPaidText": "QuickCoords is totally free with no ads.\n We think that the users deserve a great app for free and without advertisements ruining the user experience.\n We never know the future but if one day the app has a subscrition we will try to make it affordable and worth it.",
+        "questionIOS": "Why is there no IOS version?",
+        "questionIOSText": "There's no QuickCoords for IOS devices because the price to submit an app to the App Store is expensive but if in the future our user base grows we will launch an IOS version.",
+        "questionStandout": "How QuickCoords standout from the other apps?",
+        "questionStandoutText": "You will think that this is just trying to convince you but QuickCoords may not have all the features or options but one thing you can be sure is that QuickCoords is built from the ground to be simple, easy and effective. We think that an app is not good because it has a lot of features but because it has the right features",
+        "unique": "The only app that instantly gives you precise coordinates based on distance and direction"
+    }
+}

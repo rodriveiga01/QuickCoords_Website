@@ -1,0 +1,33 @@
+{
+    "translation": {
+        "titleCover": "Alcance locais sem esforço e com precisão",
+        "secondTextCover": "Encontre facilmente localizações exatas com ferramentas embutidas e vários formatos de coordenadas",
+        "install": "Instalar",
+        "installationCount": "Mais de 30 pessoas já instalaram esta app!",
+        "calculation": "Cálculo",
+        "calculationSlogan": "De lugar nenhum para qualquer lugar em 5 cliques",
+        "calculationText": "Calcular coordenadas utilizando um sistema de cálculo baseado em distância e orientação",
+        "calculationSteps": "Calcule qualquer localização a nível mundial em apenas 5 passos:\n• Clique em “Utilizar a minha localização” para detetar a sua posição atual\n• Introduza a distância pretendida\n• Introduza a orientação pretendida\n• Clique em “Calcular\n• Toque em “Enviar para a bússola” ou copie as suas novas coordenadas",
+        "compass": "Bússola",
+        "compassSlogan": "De qualquer lugar para o lugar certo - apenas uma bússola, sem cliques",
+        "compassText": "Chegue ao seu destino com um sistema de navegação por bússola - sem necessidade de rede",
+        "compassSteps":"Quer inserindo as coordenadas pretendidas, quer calculando-as, chegará sempre ao local pretendido sem ter de se preocupar:\n• Chegue ao seu destino exato com um metro de precisão, sem precisar de rede\n• O nosso sistema inteligente mantém-no automaticamente no caminho certo, para que possa navegar sem problemas e de forma fiável",
+        "accuracy": "Precisão",
+        "precision": "Graus de precisão",
+        "levelText": "Um nível para indicar a inclinação",
+        "useCases": "Exemplos de uso",
+        "useCasesText": "Eis alguns casos de utilização em que o QuickCoords pode ser útil",
+        "campsite": "Encontrar um acampamento",
+        "campsiteSteps": "Utilize o QuickCoords para regressar em segurança ao seu acampamento após um dia de exploração\n",
+        "mountain": "Caminhada nas montanhas",
+        "mountainSteps": "Utilize o QuickCoords para determinar a sua localização num percurso, assegurando que se mantém no rumo certo com a bússola incorporada\n",
+        "questions": "Perguntas a responder",
+        "questionPaid": "O QuickCoords é pago?",
+        "questionPaidText": "O QuickCoords é totalmente gratuito e não tem anúncios.\n Achamos que os utilizadores merecem uma boa aplicação gratuita e sem anúncios a estragar a experiência do utilizador. Nunca sabemos o futuro, mas se um dia a aplicação tiver uma subscrição, tentaremos que seja acessível e que valha a pena.",
+        "questionIOS": "Porque é que não existe uma versão IOS?",
+        "questionIOSText": "Não há QuickCoords para dispositivos IOS porque o preço para submeter uma aplicação à App Store é elevado, mas se no futuro a nossa base de utilizadores crescer, lançaremos uma versão IOS.",
+        "questionStandout": "Como é que o QuickCoords se destaca das outras aplicações?",
+        "questionStandoutText": "Pode pensar que isto é só para o convencer, mas o QuickCoords pode não ter todas as funcionalidades ou opções, mas uma coisa que pode ter a certeza é que o QuickCoords foi construído de raiz para ser simples, fácil e eficaz. Pensamos que uma aplicação não é boa porque tem muitas funcionalidades, mas porque tem as funcionalidades certas",
+        "unique": "A única aplicação que lhe dá instantaneamente coordenadas precisas com base em distância e na orientação"
+    }
+}

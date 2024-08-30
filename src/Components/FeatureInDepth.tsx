@@ -1,35 +1,34 @@
 import React from "react";
 import calculation_img from "/src/assets/calculation.png";
 import compass_img from "/src/assets/compass.png"
+import { useLanguageDetection, useTranslatedText } from "../locale/languageUtility";
 
 export function FeatureInDepth() {
+  useLanguageDetection();
+  const t = useTranslatedText();
+
+  const calculationStepsString = t('calculationSteps');
+  const calculationSteps = calculationStepsString ? calculationStepsString.split('\n') : [];
+
+  const compassStepsString = t('compassSteps');
+  const compassSteps = compassStepsString ? compassStepsString.split('\n') : [];
+
   let calculation = new Feature(
     calculation_img,
     "UI of a coordinate calculator field",
-    "From nowhere to anywhere in 5 clicks",
-    [
-      "Calculate any location worldwide in just 5 steps:",
-      "• Click 'Use my location' to detect your current position",
-      "• Enter your desired distance",
-      "• Set your desired orientation",
-      "• Hit 'Calculate'",
-      "• Either tap 'Send to Compass' or copy your new coordinates"
-    ]
+    t('calculationSlogan'),
+    calculationSteps
   );
   let compass = new Feature(
     compass_img,
     "A compass with a level in the middle",
-    "From anywhere to the right place - just a compass, no clicks",
-    [
-      "Either inserting the coordinates you want or calculating them you will always get to the place you want without need to worry:",
-      "• Reach your exact destination within one meter of accuracy, without needing cell signals",
-      "• Our smart system automatically keeps you on track, so you can navigate smoothly and reliably"
-    ]
+    t('compassSlogan'),
+    compassSteps
   );
 
-  let accuracy = [">1m", "Accuracy"]
-  let precision = ["3600", "Degrees of precision"]
-  let level_text = "A level to indicate inclination"
+  let accuracy = [">1m", t('accuracy')]
+  let precision = ["3600", t('precision')]
+  let level_text = t('levelText')
 
   return (
     <>
