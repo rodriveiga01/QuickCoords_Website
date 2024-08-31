@@ -27,7 +27,7 @@ export function FeatureInDepth() {
   );
 
   let accuracy = ["<1m", t('accuracy')]
-  let precision = ["3600", t('precision')]
+  let precision = ["360", t('precision')]
   let level_text = t('levelText')
 
   return (
