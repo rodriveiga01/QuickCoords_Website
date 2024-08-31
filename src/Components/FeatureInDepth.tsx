@@ -26,7 +26,7 @@ export function FeatureInDepth() {
     compassSteps
   );
 
-  let accuracy = [">1m", t('accuracy')]
+  let accuracy = ["<1m", t('accuracy')]
   let precision = ["3600", t('precision')]
   let level_text = t('levelText')
 
